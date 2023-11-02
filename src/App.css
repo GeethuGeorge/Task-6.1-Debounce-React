@@ -1,0 +1,59 @@
+.autocomplete{
+height: 650px;
+width: 700px;
+margin-left: 400px;
+display: flex;
+flex-direction: column;
+background-color: bisque;
+border-radius: 5px;
+border: none;
+position: relative;
+}
+
+h2{
+  margin-left: 250px;
+}
+
+/* Style for the search input */
+.searchInput {
+  position: relative;
+  width: 500px;
+  height: 20px;
+  margin-left: 100px;
+  border: none;
+}
+
+.searchInput input {
+  width: 100%;
+   /* Make the input take the full width of the container */
+}
+/* Style for the icon within the search input */
+ .icon {
+  position: absolute;
+  top: 80px; 
+  left:102px;
+  margin-right: 10px;
+ }
+
+ ul{
+  list-style-type: none;
+ }
+li{
+  margin-left:60px;
+  width:500px;
+}
+
+li:hover{
+  background-color: rgb(205, 205, 223);
+  color: brown;
+  font-weight: bold;
+}
+
+span .closeIcon{
+position: absolute;
+top:80px;
+left:570px;
+cursor: pointer;
+margin-left: 20px;
+
+}
